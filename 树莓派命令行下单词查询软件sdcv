@@ -1,0 +1,44 @@
+#########################################################################
+# Name: 树莓派命令行下单词查询软件sdcv
+# Version: 1.0
+# Author: Tony3201 
+# Created Time: March 24,2020
+#########################################################################
+
+1、安装命令行字典工具sdcv
+　　sudo apt-get install sdcv
+2、创建字典安装文件夹
+　　mkdir -p ~/.stardict/dic
+3、进入文件夹
+　　cd ~/.stardict/dic
+4、下载朗道英汉字典、朗道汉英字典
+　　1)下载朗道英汉字典并解压
+　　wget http://download.huzheng.org/zh_CN/stardict-langdao-ec-gb-2.4.2.tar.bz2
+　　tar xvf stardict-langdao-ec-gb-2.4.2.tar.bz2
+　　2）下载朗道汉英字典并解压
+　　wget http://download.huzheng.org/zh_CN/stardict-langdao-ce-gb-2.4.2.tar.bz2
+　　tar xvf stardict-langdao-ce-gb-2.4.2.tar.bz2
+　　3)解压完成后，删除压缩包
+　　rm *.bz2
+5、命令行下示例
+　　sdcv 苹果
+  
+　Found 1 items, similar to 苹果.
+-->朗道汉英字典5.0
+-->苹果
+
+apple
+【医】 apple
+相关词组:
+  苹果饼
+  苹果布丁
+  苹果酱
+  苹果酒
+  苹果渣
+  苹果汁
+  酸苹果
+  野生苹果
+
+　　Your choice[-1 to abort]:
+  ------------------------------------------------------------------------------------
+  
