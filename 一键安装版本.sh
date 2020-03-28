@@ -7,7 +7,7 @@
 #!/bin/bash
 clear
 sudo apt -y install sdcv && mkdir -p ~/.stardict/dic
-cd ~/.stardict/dic
+sudo cd ~/.stardict/dic
 wget http://download.huzheng.org/zh_CN/stardict-langdao-ec-gb-2.4.2.tar.bz2 && tar xvf stardict-langdao-ec-gb-2.4.2.tar.bz2
 wget http://download.huzheng.org/zh_CN/stardict-langdao-ce-gb-2.4.2.tar.bz2 && tar xvf stardict-langdao-ce-gb-2.4.2.tar.bz2
 sudo rm *.bz2
