@@ -8,8 +8,8 @@
 clear
 sudo apt -y install sdcv && sudo mkdir -p ~/.stardict/dic
 sudo cd ~/.stardict/dic
-sudo wget http://download.huzheng.org/zh_CN/stardict-langdao-ec-gb-2.4.2.tar.bz2 && tar xvf stardict-langdao-ec-gb-2.4.2.tar.bz2
-sudo wget http://download.huzheng.org/zh_CN/stardict-langdao-ce-gb-2.4.2.tar.bz2 && tar xvf stardict-langdao-ce-gb-2.4.2.tar.bz2
+sudo wget http://download.huzheng.org/zh_CN/stardict-langdao-ec-gb-2.4.2.tar.bz2 && sudo tar xvf stardict-langdao-ec-gb-2.4.2.tar.bz2
+sudo wget http://download.huzheng.org/zh_CN/stardict-langdao-ce-gb-2.4.2.tar.bz2 && sudo tar xvf stardict-langdao-ce-gb-2.4.2.tar.bz2
 sudo rm *.bz2
 clear
 sdcv apple
