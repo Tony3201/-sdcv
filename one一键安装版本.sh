@@ -1,5 +1,5 @@
 ###############################################
-# Name: 树莓派命令行下单词查询软件sdcv_一键安装版本.sh
+# Name: Linux命令行下单词查询软件sdcv_一键安装版本.sh
 # Version: 1.0
 # Author: Tony3201 
 # Created Time: March 28,2020
