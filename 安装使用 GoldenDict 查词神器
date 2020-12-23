@@ -1,0 +1,13 @@
+安装使用 GoldenDict 查词神器 
+
+Linux ：终端上执行安装命令
+
+# Ubuntu / Debian
+sudo apt install goldendict -y
+
+# CentOS
+sudo yum install goldendict -y
+
+# Fedora
+sudo dnf install goldendict -y
+
