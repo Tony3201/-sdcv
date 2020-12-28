@@ -12,3 +12,6 @@ sudo yum install goldendict -y
 # Fedora
 sudo dnf install goldendict -y
 
+========download the dict==========
+https://pkgs.org/download/goldendict
+
